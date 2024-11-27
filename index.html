@@ -9,18 +9,16 @@
         <meta name="description" content="Timothy Rutkowski's Business Card">
         <meta name="author" content="Timothy Rutkowski">
 
-        <style>
-            html {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                height: 0;
-                background-image: radial-gradient(circle at bottom left, #FDFBD4 35%, #D97335, #302924);    
-            }
-                
+        <style> 
             body {
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 margin: 0;
                 padding: 0;
+                background: radial-gradient(circle, #fdfbd4, #d97335 50%, #302924), url('https://www.transparenttextures.com/patterns/axiom-pattern.png');
+                background-blend-mode: overlay;
             }
                 
             .business-card {
@@ -31,7 +29,7 @@
                 width: 20%;
                 height: 200px;
                 min-width: 375px;
-                margin: 350px auto;
+                margin: auto;
                 padding: 0;
                 background-image: radial-gradient(circle at bottom left, #FDFBD4 55%, #D97335, #302924);
             }
